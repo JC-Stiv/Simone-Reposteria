@@ -1,3 +1,9 @@
+body {
+
+    font-family: 'Khand', sans-serif;
+    background: #fff8e8;
+
+}
 
 header {
 
@@ -85,6 +91,8 @@ nav li {
     
 
 }
+
+
 
 .imagenprincipal{
 

@@ -1,4 +1,11 @@
 
+body {
+
+    font-family: 'Khand', sans-serif;
+    background: #fff8e8;
+
+}
+
 header {
 
     background: #b9422f;
@@ -85,14 +92,6 @@ nav li {
 
 }
 
-
-
-body {
-
-    background: #fff8e8;
-
-}
-
 .contenido {
         
         display: flex;
@@ -128,8 +127,8 @@ body {
 .informacion {
 
     
-    margin-top: 30px;
-    margin-bottom: 50px;
+    margin-top: 10px;
+    margin-bottom: 30px;
     text-align:start;
 
 }               
@@ -215,7 +214,7 @@ body {
     margin-top: 20px;
     margin-bottom: 20px;
     border: 0px;
-    border-bottom: 1px solid;
+    border-bottom: 1px solid #000000;
     background: #e5e2db;
     outline: none;
 

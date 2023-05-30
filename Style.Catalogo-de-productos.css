@@ -1,3 +1,10 @@
+body{
+
+    font-family: 'Khand', sans-serif;
+    background-color: #fff8e8 ;
+    
+    }
+
 header {
 
     background: #b9422f;
@@ -87,7 +94,6 @@ nav li {
 
 
 
-
 .tituloproductos{
 
     color: #b9422f;
@@ -110,12 +116,7 @@ nav li {
 
 }
 
-body{
 
-
-background-color: #f2c8946b ;
-
-}
 
 
 .productos li {
@@ -126,7 +127,7 @@ background-color: #f2c8946b ;
    text-align:left;
    width: 50%;
    float: left;
-   background-color: #f2f2f2;
+   background-color: #e5e2db;
    
    
    
