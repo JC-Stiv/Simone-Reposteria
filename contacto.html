@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+
+<meta charset="UTF-8">
+
+<html>
+    <head> 
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=divice-width">
+        <TItle >SimoneReposteria</TItle>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="Style.contacto.css">
+    </head> 
+    <body>
+        <header>
+            <div class="caja">
+                <h1><img src= "imagenes/imagen2.png" id="logo"></h1>
+                <input type="text" placeholder="🔍︎ Buscar..." class="buscar">
+                <nav>
+                    <ul>
+                        <li><a href="Inicio.html">Incio</a></li>
+                        <li><a href="Catalogo-de-productos.html">Catalogo de productos</a></li>
+                        <li><a href="Registro.html">Registrate</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+                
+            <div class="contenido">         
+                <div class = "informacioncontacto">
+                    <h2>Contactenos</h2>
+                        <p class="texto">Si deseas algun tipo de informacion o manifestar alguna inconformidad, te invitamos a comunicarte con nosotros por medio de nuestra linea telefonica o por medio de nuestros clientes canales virtuales para la atencion al usuario</p>
+                        <img src="imagenes/contactos.png " class="formadecontacto" >
+                    
+                        <p class="cotacto">linea de atencion: 6013646365-3489087</p>
+                        <p class="contacto">Correo:simonereposteria@gmail.com</p>
+                </div>
+                <div class = "registro">
+                    <h2>Registe sus datos de contacto*</h2>
+                    <div class="informacion">
+                        <label for="nombre" >Nombre*</label>
+                        <input type="text" id="nombre" class="nombre" required>
+
+                        <label for="apellidos" >Apellido*</label>
+                        <input type="text" id="apellido" class="apellido" required>
+
+                        <label for="correoelectronico">Correo*</label>
+                        <input type="email" id="correoelectronico" class="correo"required>
+
+                        <label for="telefono">Telefono*</label>
+                        <input type="tel" id="telefono"class="telefono"required >
+                    </div> 
+
+                    <label for="cajadetexto">Comentario*</label>
+                    <textarea cols="63" rows="10" id = "cajadetexto" class="mensaje"></textarea>
+
+                    <input type="submit" class="enviar">
+
+                    
+                </div>
+            </div>   
+        </main>
+
+
+    </body>
